@@ -1,0 +1,158 @@
+.create-section {
+  margin-top: 90px;
+  padding: 20px;
+  background-color: #e8f9fa;
+  text-align: center;
+  width: 100%; /* Ensure the section stretches full width */
+  box-sizing: border-box; /* Proper padding handling */
+}
+
+.create-header .tagline {
+  display: inline-block;
+  background-color: #effeff;
+  color: #0cbbc7;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.create-header .title {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #000;
+}
+
+.create-header .bold {
+  font-weight: bold;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.tab {
+  font-size: 14px;
+  color: #888;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #0cbbc7;
+  color: white;
+}
+
+.create-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.text-content {
+  max-width: 500px;
+  text-align: left;
+  flex: 1; /* Allows it to shrink and grow based on screen size */
+}
+
+.text-content h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.text-content h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.text-content p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #0cbbc7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0a9ca5;
+}
+
+.image-content img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Allows it to shrink and grow based on screen size */
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+  .create-header .title {
+    font-size: 20px;
+  }
+
+  .create-content {
+    flex-direction: column; /* Stack the content vertically on smaller screens */
+    gap: 40px; /* Add space between sections */
+  }
+
+  .text-content {
+    max-width: 100%; /* Allow the text content to take full width */
+    text-align: center;
+  }
+
+  .image-content img {
+    max-width: 80%; /* Make image a bit smaller on mobile */
+    margin-top: 20px;
+  }
+}
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+  .create-header .tagline {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+
+  .create-header .title {
+    font-size: 18px;
+  }
+
+  .text-content h2 {
+    font-size: 20px;
+  }
+
+  .text-content h3 {
+    font-size: 16px;
+  }
+
+  .text-content p {
+    font-size: 12px;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .image-content img {
+    max-width: 100%; /* Ensure the image takes up full width on mobile */
+  }
+}

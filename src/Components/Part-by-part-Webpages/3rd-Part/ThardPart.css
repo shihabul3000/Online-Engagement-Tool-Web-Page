@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Tool Section */
+  .tool-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 1.5rem;
+  }
+  
+  .text-content {
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .text-content .subheading {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #06b6d4;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+  }
+  
+  .text-content .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1a202c;
+    margin: 1rem 0;
+  }
+  
+  .text-content .heading strong {
+    font-weight: 900;
+  }
+  
+  .text-content .description {
+    font-size: 1rem;
+    color: #4a5568;
+    margin: 0.5rem 0;
+  }
+  
+  .text-content .cta-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 2rem;
+    background-color: #06b6d4;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .text-content .cta-button:hover {
+    background-color: #0284c7;
+    transform: translateY(-2px);
+  }
+  
+  .image-content {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .image-content .team-image {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .tool-section {
+      
+      flex-wrap: nowrap;
+      padding: 4rem 3rem;
+    }
+  
+    .text-content {
+      text-align: left;
+    }
+  }
+  

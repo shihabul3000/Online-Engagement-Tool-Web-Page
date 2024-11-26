@@ -1,0 +1,69 @@
+.customer-section {
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: -40px;
+
+   
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  .customer-header {
+    background-color: #effeff;
+    border-radius: 60px;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+  }
+  
+  .customer-header span {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 8px;
+    letter-spacing: 0.8px;
+    color: #0cbbc7;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35.28px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .customer-logos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .customer-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.64px;
+    color: #000;
+  }
+  
+  .info-item img {
+    margin-right: 10px;
+  }
+  
